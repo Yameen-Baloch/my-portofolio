@@ -2,12 +2,12 @@ import React from 'react';
 import './Header.css';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
-import ME from '../../assets/me.png';
+import ME from '../../assets/ME.jpg';
 
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Yameen Baloch</h1>
         <h5 className='text-light'>Front End Developer</h5>
